@@ -8,4 +8,8 @@ function dealWithIt() {
     $("#glasses").animate({top: "+280"}, 1500)
 }
 
-var otherbutton = d
+var otherbutton = $(".refresh")
+
+$(function()) {
+  otherbutton.click(refresh)
+  }
